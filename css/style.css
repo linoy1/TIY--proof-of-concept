@@ -1,0 +1,50 @@
+        .boxes {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .box {
+        display: inline-block;
+        width: 24%;
+        height: 15em;
+        text-align: center;
+        line-height: 15em;
+        color: #fff;
+    }
+    
+    .one {
+        background: #333;
+    }
+    
+    .two {
+        background: #fff;
+        color: #333;
+    }
+    
+    .three {
+        background: #aaa;
+    }
+    /* .four {
+    background: #dc002e;
+}
+ */
+    /* 768px */
+    
+    @media screen and (max-width:48em) {
+        .boxes {
+            display: table;
+            width: 100%;
+        }
+        .box {
+            display: block;
+            width: 100%;
+        }
+        .three {
+            display: table-caption;
+        }
+        .four {
+            display: table-header-group;
+        }
+        .one {
+            display: table-footer-group;
+        }
