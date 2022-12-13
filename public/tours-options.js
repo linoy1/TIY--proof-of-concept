@@ -24,8 +24,6 @@ function tours() {
     images[3] = new Image();
     images[3].src = "/public/images/map4.jpg";
 
-    console.log(images[0]);
-
     for (i = 0; i < 4; i++) {
         const link = document.createElement("a");
         // link.innerText = tours[i];

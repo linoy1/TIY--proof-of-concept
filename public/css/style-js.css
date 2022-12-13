@@ -171,7 +171,6 @@ a:nth-child(4) {
     }
     a:nth-child(2) {
         display: table-caption;
-        display: table-footer-group;
     }
     a:nth-child(3) {
         display: table-caption;
